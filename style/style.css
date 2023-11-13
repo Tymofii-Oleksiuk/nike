@@ -1,0 +1,220 @@
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+header {
+    background: #012D63;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+}
+
+
+.header-text {
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.language-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.language-link {
+    color: #DCDCDC;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero {
+    background-image: url(../img/hero-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-shop:nth-child(2) {
+    padding-left: 31px;
+}
+
+.hero-shop {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -38px;
+}
+
+.hero-img {
+    width: 160px;
+    height: 120px;
+    padding-left: 6px;
+    margin-top: 94px;
+}
+
+.hero-title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -25px;
+    margin-left: -8px;
+}
+
+.subtitle {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+    margin-top: -36px;
+}
+
+.hero-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 41px;
+    margin-right: 664px;
+}
+
+.hero-btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    width: 254px;
+    height: 67px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #8E32C6;
+    margin-bottom: 183px;
+}
+
+.about {
+    background-image: url(../img/about-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+
+.about-list {
+    outline: solid #8E32C6;
+    padding: 25px 50px;
+}
+
+.about-title1 {
+    text-align: center;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 90px;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-left: 41px;
+}
+
+.about-title2 {
+    text-align: center;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 134px;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-left: 45px;
+}
+
+.about-title3 {
+    text-align: center;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 6px;
+    margin-right: 45px;
+}
+
+.about-list {
+    display: flex;
+    gap: 95px;
+}
+
+.about-item:not(:last-child):after {
+    display: flex;
+    flex-direction: row;
+    width: 1px;
+    height: 346px;
+    background: #FFF;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+}
+
+.about-item {
+    position: relative;
+}
+
+.reviews-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews-list-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.list-text{
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
