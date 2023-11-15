@@ -191,6 +191,14 @@ header {
     position: relative;
 }
 
+.reviews {
+    background-image: url(../img/reviews-flower.png), url(../img/back-reviews.jpg);
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    padding-top: 25px;
+    padding-bottom: 143px;
+}
+
 .reviews-title {
     color: #FFF;
     text-align: center;
@@ -199,6 +207,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 73px;
 }
 
 .reviews-list-title {
@@ -208,13 +217,49 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 8px;
+    text-align: start;
 }
 
-.list-text{
+.list-text {
     color: #D8D8D8;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.list-subtitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 47px 0 1px 0;
+}
+
+.list-subtext {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews-list {
+    display: flex;
+    gap: 125px;
+    padding: 0px 92px;
+}
+
+.reviews-item {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    padding: 49px 14px 29px 13px;
 }
