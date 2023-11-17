@@ -211,6 +211,7 @@ header {
 }
 
 .reviews-list-title {
+
     color: #FFF;
     font-family: Roboto;
     font-size: 24px;
@@ -218,8 +219,38 @@ header {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 8px;
-    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.reviews-list-title1 {
+    width: 228px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+    margin-right: 9px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews-list-title2 {
+    width: 228px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+    margin-right: 9px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .list-text {
     color: #D8D8D8;
@@ -237,8 +268,9 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 47px 0 1px 0;
+    margin-bottom: 1px;
 }
+
 
 .list-subtext {
     color: #D8D8D8;
@@ -249,17 +281,41 @@ header {
     line-height: normal;
 }
 
-.reviews-list {
+.list-box {
     display: flex;
-    gap: 125px;
-    padding: 0px 92px;
+    margin-top: 47px;
 }
 
-.reviews-item {
-    width: 255px;
-    height: 292px;
+.list-subbox{
+    margin-left: 5px;
+}
+
+.reviews-list {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+
+.reviews-item1 {
+    width: 228px;
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
     padding: 49px 14px 29px 13px;
+}
+
+.reviews-item2 {
+    width: 228px;
+    border-radius: 15px;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    padding: 49px 0px 29px 18px;
+}
+
+.reviews-item3 {
+    width: 228px;
+    border-radius: 15px;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+    padding: 49px 9px 29px 18px;
 }
