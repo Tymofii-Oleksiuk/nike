@@ -32,6 +32,16 @@ header {
     line-height: normal;
 }
 
+.header-text:hover {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 .language-list {
     display: flex;
     align-items: center;
@@ -46,11 +56,22 @@ header {
     line-height: normal;
 }
 
+.language-link:hover {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .hero {
     background-image: url(../img/hero-back.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 183px;
 }
 
 .hero-shop:nth-child(2) {
@@ -70,7 +91,6 @@ header {
     width: 160px;
     height: 120px;
     padding-left: 6px;
-    margin-top: 94px;
 }
 
 .hero-title {
@@ -114,7 +134,6 @@ header {
     flex-shrink: 0;
     border-radius: 10px;
     background: #8E32C6;
-    margin-bottom: 183px;
 }
 
 .about {
@@ -194,7 +213,8 @@ header {
 .reviews {
     background-image: url(../img/reviews-flower.png), url(../img/back-reviews.jpg);
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-size: 226px 380px, cover;
+    background-position: 0 bottom, center;
     padding-top: 25px;
     padding-bottom: 143px;
 }
@@ -207,7 +227,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: 73px;
+    margin-bottom: 24px;
 }
 
 .reviews-list-title {
@@ -286,7 +306,7 @@ header {
     margin-top: 47px;
 }
 
-.list-subbox{
+.list-subbox {
     margin-left: 5px;
 }
 
@@ -300,7 +320,7 @@ header {
     width: 228px;
     border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
     padding: 49px 14px 29px 13px;
 }
 
@@ -308,7 +328,7 @@ header {
     width: 228px;
     border-radius: 15px;
     background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
     padding: 49px 0px 29px 18px;
 }
 
@@ -316,6 +336,199 @@ header {
     width: 228px;
     border-radius: 15px;
     background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
     padding: 49px 9px 29px 18px;
+}
+
+.order {
+    background-image: url(../img/order-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 21px 0 37px;
+}
+
+.order-submit-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 690px;
+}
+
+.order-confirm-btn {
+    position: absolute;
+    margin-right: 78px;
+    top: 0;
+    right: 0;
+    color: #8D8D8D;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    margin-top: 13px
+}
+
+.order-titile {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+.big-order-inp {
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+    background: #FFF;
+    padding-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-order-inp::placeholder {
+    color: #959595;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.order-inp {
+    width: 580px;
+    height: 50px;
+    border-radius: 50px;
+    background: #FFF;
+    padding-left: 24px;
+}
+
+.order-inp::placeholder {
+    color: #959595;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.order-btn {
+    width: 248px;
+    height: 68px;
+    border-radius: 16px;
+    background: #8E32C6;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 19px;
+}
+
+.order-btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+footer {
+    background: #021635;
+    padding-bottom: 50px;
+}
+
+.footer-list-box {
+    display: flex;
+    gap: 373px;
+    padding: 45px 0 20px;
+}
+
+.guestion-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.footer-subtitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 7px;
+    margin-top: 24px;
+}
+
+.footer-subtext {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-shop-title {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -16px;
+    margin-left: 24px;
+}
+
+
+.guestion-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-line-decor {
+    width: 1110px;
+    height: 1px;
+    background: #9B9B9B;
+}
+
+.footer-subbox {
+    display: flex;
+    justify-content: space-between;
 }

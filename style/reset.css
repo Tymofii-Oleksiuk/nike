@@ -16,3 +16,9 @@ a{
 body{
     margin: 0;
 }
+
+button{
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
